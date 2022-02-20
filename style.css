@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Covered+By+Your+Grace&display=swap');
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+     font-family: 'Advent Pro', sans-serif;
+     padding: 0;
+     margin: 0;
+}
+ul {
+     margin: 0;
+     padding: 0;
+}	
+li {
+	list-style-type: none;
+}
+a {
+    text-decoration: none;
+	color: white;
+}
+/*----------------------NAVBAR----------------------------*/
+nav {
+	overflow: hidden; 
+	background-color: #252728;
+	position: fixed;
+	width: 100%;
+	opacity: 0.9;
+	padding: 1%;
+}
+header li {
+	float: right;
+	font-size: 1.2em;	
+}
+header li a {
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	padding: 18px 16px;
+}
+#logo {
+    font-family: 'Advent Pro', cursive;
+	font-weight: bold;
+	float: left;
+}
+/*----------------------Trivial Pursuit----------------------------*/
+#imagePrincipale {
+	padding-top: 60px;
+	background-image: url(media/Lieux.jpg);
+    background-size: cover;
+	height: 600px;
+}
+h1 {
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	color: white;
+	font-size: 5em;
+	margin-top: 110px;
+    text-shadow: -2px 0 black, 0 2px black,2px 0 black, 0 -2px black;	
+}
+/*----------------------Random----------------------------*/
+#Question {
+	background-color: white;
+    padding: 30px 30px 100px 0;
+}
+#tt {
+    font-size: 35px;
+    margin: 15px;
+    text-align: left;
+    border: #252728 5px solid;
+    border-radius: 9px;
+    padding: 5px;
+    min-height: 58px;
+	padding: 5px 10px 50px 0;
+	overflow-wrap: break-word;
+}
+#bouton {
+	padding: 15px;
+    background: #464a4c;
+    border-radius: 15px;
+    display: table;
+    cursor: pointer;
+    font-size: 35px;
+    margin: 10px auto;
+    color: #fff;
+    user-select: none;
+}
+.imagesListe img {
+	text-align: right;
+	border-radius: 10px;
+	border: 1px solid black;
+}
+
+#Liste { 
+	text-align: center;
+}
+/*----------------------FOOTER----------------------------*/
+footer {
+	background-color: #252728; 
+	color: white;
+	padding: 15px 0 20px 0;
+}
+#copyright {
+	width: 50%;
+	text-align: left;
+	color: white;
+	font-size: 1em;
+}

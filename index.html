@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+ <meta charset="UTF-8">
+
+ <title>Trivial Pursuit</title>
+ <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+ <header>
+ 
+  <nav>
+   <ul>
+    <li id="logo"><a href="https://alybaba07.github.io/trivialpursuit/">Accueil</a></li>
+   </ul>
+  </nav>
+	  
+  <div id="imagePrincipale">
+  <h1>Questions</h1>
+  </div>
+</header>
+
+<section id="Question">
+<textarea id="tt" size="63%"></textarea>
+<input type="button" value="Random" id="bouton" onClick="populate();">
+<script type="text/javascript" charset="utf-8">
+function populate () {
+    var obj=document.getElementById("tt" ),
+    aleatoire=Math.floor(Math.random()*20);
+    switch(aleatoire){
+    case 0:obj.value="Comment s'appelle l'endroit où sont élevé.e.s les enfants ? (TPN) Réponse : Grace Field House";break;
+    case 1:obj.value="Dans quel restaurant Naruto a pour habitude d'aller manger ? (Naruto) Réponse : Ramen Ichiraku";break;
+    case 2:obj.value="Où se situe la guilde de Fairy Tail ? (Fairy Tail) Réponse : Magnoria";break;
+    case 3:obj.value="Quel est le 1er repaire de la Ligue des supers vilains, à Kimano ? (MHA) Réponse : Le bar ";break;
+    case 4:obj.value="Dans quel endroit se trouve le noyau spirituel ? (KnY) Réponse : Dans le subconscient ";break;
+	case 5:obj.value="Dans quelle ville se situe l'équipe du lycée Seirin ? (KnB) Réponse : A Tokyo";break;
+	case 6:obj.value="Dans quelle préfecture se situe l'équipe du lycée Karasuno ? (Haikyuu) Réponse : A Miyagi";break;
+	case 7:obj.value="Quelle est le plus petite muraille qui protège les habitant.e.s de l'île du Paradis ? (SNK) Réponse : Sina";break;
+	case 8:obj.value="Situer les royaumes et leur symbole sur la carte (Black Clover)";break;
+	case 9:obj.value="Où se situe le 3ème checkpoint de Subaru ? (Re Zero) Réponse : Devant le stand de pamme, avec Rem";break;
+	case 10:obj.value="Quel est le nom de la citadelle que la troupe du faucon assiège au sein de l'empire de Tudor ? (Berserk)";break;
+	case 11:obj.value="Où Kirito se réveille dans l'arc Alicization ? (SAO) Réponse : Au village Rulid";break;
+	case 12:obj.value="Où Satoru se fait arrêter ? - (Erased) Réponse : Sous le pont";break;
+	case 13:obj.value="Comment s'appelle le nom du village d'origine de Scar ? (FMA-B) Réponse : A Ishbal";break;
+	case 14:obj.value="Comment se nomme le village où se situe le dojo dans lequel Zoro a été formé ? (OP) Réponse : Le village de Shimotsuki";break;
+	case 15:obj.value="Où se rend Koro-sensei après les cours pour se rafraîchir lorsqu'il fait trop chaud ? (Ass Class) Réponse : Au Pôle Nord";break;
+	case 16:obj.value="Quel est le nom de la course où Reki participe régulièrement ? (SK8) Réponse : La course S";break;
+	case 17:obj.value="Sur les 12 univers, quel est celui où la quasi totalité de l'histoire se déroule ? (DB) Réponse : L'Univers 7";break;
+	case 18:obj.value="Quelle est l'école d'exorcisme que Yuji Itadori rejoint ? (JJK) Réponse : L'école d'exorcisme de Tokyo";brak;
+	case 19:obj.value="Comment se nomme l'île sur laquel se déroule l'histoire de 7ds ? (7DS) Réponse : Britannia"
+    }
+}
+</script>
+</section>
+ <section id="Categories">
+
+<div id="Liste">
+<div class="imagesListe">
+<img src="media/Questions.jpg" alt="Yuji Itadori"></a>
+</div>
+</section>
+
+<footer>
+<div id="deuxièmeTrait"></div>
+<div id="copyright">
+<span>©Alybaba 2022</span>
+</div>
+
+</footer>
+</body>
+
+</html>
